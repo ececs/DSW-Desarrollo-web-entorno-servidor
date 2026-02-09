@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'daw/soap-tienda',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'daw/soap-tienda' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php2wsdl/php2wsdl' => array(
+            'pretty_version' => '0.5',
+            'version' => '0.5.0.0',
+            'reference' => '4dc7a41667535bab9543de425b3bb6db54fda950',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php2wsdl/php2wsdl',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wingu/reflection' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'reference' => '3c736acd40d33b5e8e04c89528b47d368c22c709',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wingu/reflection',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
