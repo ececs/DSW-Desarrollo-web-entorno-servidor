@@ -84,4 +84,4 @@ La mayoría de los proyectos están diseñados para ser ejecutados en un entorno
 
 ---
 
-**Autor:** Eudaldo Alonso (si es correcto, si no, puedes cambiarlo)
+**Autor:** Eudaldo Alvaro Cal Saul
