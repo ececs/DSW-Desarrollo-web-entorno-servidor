@@ -1,0 +1,21 @@
+{
+    "name": "daw/soap-tienda",
+    "description": "Servicio web SOAP para gestion de tienda online - Generado con php2wsdl",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "php2wsdl/php2wsdl": "^0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Estudiante DAW 2º",
+            "email": "estudiante@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

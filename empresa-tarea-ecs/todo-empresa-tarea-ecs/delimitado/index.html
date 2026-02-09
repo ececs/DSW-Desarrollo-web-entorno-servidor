@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Restringida - Solo Administradores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffebee;
+        }
+        h1 { color: #c62828; }
+        .info {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ff9800;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔐 Área Restringida - Solo Administradores</h1>
+    <div class="info">
+        <p>¡Bienvenido al área de administración!</p>
+        <p><strong>Acceso:</strong> Solo usuarios con rol ADMIN 🔒</p>
+        <p><strong>Directorio:</strong> /var/www/empresa-tarea-ecs/todo-empresa-tarea-ecs/delimitado</p>
+        <div class="warning">
+            <strong>⚠️ Zona Protegida</strong><br>
+            Esta área contiene información confidencial de la empresa.
+        </div>
+    </div>
+</body>
+</html>

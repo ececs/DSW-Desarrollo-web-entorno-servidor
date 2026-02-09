@@ -1,0 +1,13 @@
+# Dependencias de Composer
+/code/vendor/
+/code6/vendor/
+
+# Caché de herramientas
+/code/.php-cs-fixer.cache
+/.DS_Store
+
+# Archivos de configuración local
+/.vscode/
+
+# PDFs y otros artefactos de tareas
+*.pdf
